@@ -1,0 +1,57 @@
+body {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  font-family: "Nunito";
+  font-weight: 500;
+}
+
+.accordion-container {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 100px;
+  width: 550px;
+  text-align: left;
+  user-select: none;
+}
+
+.accordion-title {
+  font-size: 32px;
+}
+
+.accordion-description {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+}
+
+.accordion-box-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.accordion-box {
+  display: flex;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  height: 50px;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.accordion-box:hover {
+  cursor: pointer;
+}
+
+.accordion-info {
+  border-radius: 12px;
+  border: white 2px solid;
+  padding: 16px;
+  font-size: 18px;
+}
